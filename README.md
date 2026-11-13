@@ -52,5 +52,4 @@ ctest --test-dir build -C Release --output-on-failure
 std::unique_ptr<IPlanner> planner = std::make_unique<AStar>();
 auto path = planner->plan(grid, start, goal);
 ```
-(Apne actual function names ke hisaab se edit kar lena.)
 
