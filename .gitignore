@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm64/
+Build/
+build/
+
+# C++ build files
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.idb
+*.pch
+*.ipch
+*.tlog
+*.log
+*.lastbuildstate
+*.iobj
+*.ipdb
+
+# NuGet
+packages/
+*.nupkg
+
+# Visual Studio Code
+.vscode/
+
+# Resharper / analysis
+_ReSharper*/
+*.DotSettings.user
+*.sarif
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / local config
+.env
+*.env
+appsettings.Development.json
